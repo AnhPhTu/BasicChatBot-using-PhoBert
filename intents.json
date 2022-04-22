@@ -1,0 +1,188 @@
+{
+	"intents": [{
+			"tag": "greeting",
+			"patterns": [
+				"Xin chào",
+				"Bạn khỏe không",
+				"Có ai ở đó không?",
+				"Xin chào",
+				"Yolo",
+				"Nàyyyy",
+				"Aloha",
+				"Có ai trả lời được không"
+			],
+			"responses": [
+				"Xin chào!",
+				"Chào :-)",
+				"Xin chào, tôi có thể giúp gì cho bạn?",
+				"Xin chào, tôi có thể giúp gì?",
+				"Xin chào, cảm ơn đã ghé thăm", "Rất vui khi gặp lại"
+			]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": [
+				"cya",
+				"Hẹn gặp lại",
+				"Tạm biệt",
+				"bye"
+			],
+			"responses": [
+				"Hẹn gặp lại, cảm ơn đã ghé thăm",
+				"Thật buồn khi bạn đi :(",
+				"Chúc bạn ngày mới tốt lành",
+				"Tạm biệt!",
+				"Tạm biệt! Hãy Quay Lại Sớm Nhé."
+			]
+		},
+		{
+			"tag": "thanks",
+			"patterns": [
+				"Cảm ơn", "Cảm ơn", "Thật hữu ích", "Cảm ơn rất nhiều!",
+				"Thanks",
+				"Thank you",
+				"Thats helpful",
+				"Thank's a lot!"
+			],
+			"responses": [
+				"Vui vẻ giúp đỡ!",
+				"Hân hạnh"
+			]
+		},
+		{
+			"tag": "name",
+			"patterns": [
+				"tên của bạn là gì",
+				"tôi nên gọi bạn là gì",
+				"bạn tên là gì?"
+			],
+			"responses": [
+				"Bạn có thể gọi tôi là Vịt hoặc Vịt Donald.",
+				"Tôi là vịt Donald!",
+				"Tôi là Vịt."
+			]
+		},
+		{
+			"tag": "friend",
+			"patterns": [
+				"bạn có bất kỳ người bạn nào không ?",
+				"bạn của bạn là ai ??"
+			],
+			"responses": [
+				"Đó là Mickey và Goofy",
+				"Một con chuột và một con chó ngu ngốc!",
+				"Chuột mặc quần và chó tai dài"
+			]
+		},
+		{
+		  "tag": "payments",
+		  "patterns": [
+			"Cậu có chấp nhận thanh toán qua thể tín dụng không?",
+			"Bạn có chấp nhận thanh toán qua ATM không?",
+			"Tôi có thể thanh toán bằng googlepay không?",
+			"Bạn nhận thanh toán bằng tiền mặt?",
+			"Bạn có chấp nhận thanh toán trực tuyến không.",
+			"Tôi có thể đặt hàng thanh toán khi nhận hàng không",
+			"Làm cách nào để thanh toán bằng tiền"
+		  ],
+		  "responses": [
+			"Chúng tôi chấp nhận paytm, googlepay và COD",
+			"Bạn có thể paytm và googlepay cho chúng tôi hoặc có thể thanh toán bằng tiền mặt",
+			"Nếu bạn không sử dụng phương thức thanh toán trực tuyến, bạn có thể thanh toán cho chúng tôi bằng tiền mặt và nếu bạn thanh toán, bạn có thể paytm hoặc googlepay cho chúng tôi.",
+			"Để hỗ trợ các bạn, chúng tôi chấp nhận paytm, googlepay và tiền mặt."
+		  ]
+		},
+		{
+		  "tag": "items",
+		  "patterns": [
+			"Bạn có những món đồ nào?",
+			"Có những loại mặt hàng nào?",
+			"Bạn bán gì?"
+		  ],
+		  "responses": [
+			"Chúng tôi bán Mickey Pant và My Shirt.",
+			"Bạn có thể lấy áo sơ mi và quần"
+		  ]
+		},
+		{
+			"tag": "hours",
+			"patterns": [
+				"khi nào các bạn mở cửa",
+				"mấy giờ bạn mở cửa",
+				"giờ hoạt động"
+			],
+			"responses": ["Chúng tôi mở cửa 24/7!"]
+		},
+		{
+			"tag": "funny",
+			"patterns": [
+				"Hãy kể cho tôi một câu chuyện cười!",
+				"Hãy kể cho tôi nghe điều gì đó vui nhộn1",
+				"Bạn có biết một câu chuyện cười nào không?"
+			],
+			"responses": [
+				"I ate a clock yesterday, it was very time-consuming.",
+				"I can’t believe I got fired from the calendar factory. All I did was take a day off!",
+				"I went to see the doctor about my short-term memory problems — the first thing he did was make me pay in advance",
+				"You have two parts of the brain, “left” and “right”. On the left side, there’s nothing right and on the right side, there’s nothing left."
+			]
+		},
+		{
+			"tag": "Mickey",
+			"patterns": [
+				"mickey ở đâu",
+				"bạn có thấy mickey không"
+			],
+			"responses": ["Anh ấy đang đi chơi với Mini"]
+		},
+		{
+			"tag": "reject",
+			"patterns": [
+				"Tôi muốn hủy đơn hàng của tôi",
+				"Bạn có thể hủy đơn đặt hàng của tôi không",
+				"Hủy đơn hàng"
+			],
+			"responses": ["Để hủy đơn hàng hãy gửi mail đến duck@LearnAI.com"]
+		},
+		{
+			"tag": "notwant",
+			"patterns": [
+				"Tôi muốn hoàn lại tiền của mình",
+				"bạn có thể trả lại tiền cho tôi",
+				"Hoàn lại hoặc trả lại"
+			],
+			"responses": ["Để được hoàn lại tiền, hãy gửi mail về support@LearnAI.com"]
+		},
+		{
+		  "tag": "pant",
+		  "patterns": [
+			"Quần bên bạn giá bao nhiêu?",
+			"Tôi có thể biết giá của quần không?",
+			"Tôi trả bao nhiêu cho chiếc quần ?",
+			"Chi phí của quần là bao nhiêu?",
+			"Giá quần là bao nhiêu?"
+		  ],
+		  "responses": [
+			"35.000 đồng cho size nhỏ là 45.000 đồng cho size Trung bình và 55.000 đồng cho size lớn.",
+			"Bạn có thể mua loại nhỏ với giá 35.000 đồng, loại vừa với giá 45.000 đồng và loại lớn với giá 55.000 đồng.",
+			"Giá là Nhỏ-35.000 đồng, Trung bình-45.000 đồng và Lớn-55.000 đồng."
+		  ]
+		},
+		 {
+		  "tag": "Tshirt",
+		  "patterns": [
+			"Tshirt giá bao nhiêu?",
+			"Áo sơ mi giá bao nhiêu?",
+			"Tôi có thể biết giá của Tshirt không?",
+			"Tôi trả bao nhiêu cho Áo phông?",
+			"Giá của áo phông là bao nhiêu?",
+			"Giá của Tshirt là bao nhiêu?"
+		  ],
+		  "responses": [
+			"Giá loại nhỏ là 45.000 đồng đối với loại nhỏ 55.000 đồng đối với loại trung bình và 65.000 đồng đối với loại lớn.",
+			"Bạn có thể mua loại nhỏ với giá 45.000 đồng, loại vừa với giá 55.000 đồng và loại lớn với giá 65.000 đồng.",
+			"Mức giá là Nhỏ-45.000vnd, Vừa-55.000vnd và Lớn-65.000vnd."
+		  ]
+		}
+	]
+}
